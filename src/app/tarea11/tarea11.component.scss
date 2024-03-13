@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  height: 5rem;
+  justify-content: space-between;
+  background-color: #171616;
+  max-width: 110rem;
+}
+img {
+  height: 4rem;
+}
+.nav__icon {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: center;
+}
+.title {
+  color: #e4e1dc;
+}
+.nav__ul {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: center;
+}
+.nav__a {
+  color: #e4e1dc;
+  font-size: 1rem;
+}
+
+@media (max-width: 30rem) {
+  /* me ayude cn la IA */
+  .main {
+    flex-direction: column; /* Cambia la dirección de los elementos a columna */
+    height: auto; /* Altura automática para acomodar el contenido */
+    padding: 1rem; /* Espaciado interno */
+  }
+}
